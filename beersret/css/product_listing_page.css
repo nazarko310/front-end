@@ -1,0 +1,238 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* Strat product_listing_page.css */
+.production {
+  overflow: hidden;
+  margin-top: 25px;
+}
+
+.production__title {
+  margin: 0 0 157px;
+  white-space: nowrap;
+}
+
+.production__list {
+  display: grid;
+  grid-template-columns: calc((270 / 364) * 100%);
+  grid-row-gap: 180px;
+  justify-content: center;
+  margin-bottom: 88px;
+}
+
+.production__block {
+  position: relative;
+  background: #202020;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 0;
+}
+
+.production__block .production__image {
+  position: absolute;
+  width: 100%;
+  height: 380px;
+  bottom: 246px;
+}
+
+.production__block .production__img {
+  position: absolute;
+  left: 50%;
+  top: 79%;
+  transform: translate(-50%, -50%);
+}
+
+.production__image img {
+  height: 281.19px;
+}
+
+.production__caption {
+  padding-left: 24px;
+  padding-top: 220px;
+  text-transform: initial;
+}
+
+.production__text {
+  padding: 29px 0 64.33px 24px;
+}
+
+.production__text,
+.production__text span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 29px 0 64.33px 24px;
+}
+
+.production__text span {
+  padding: 0;
+}
+
+.production__list .production__block .btn {
+  position: absolute;
+  top: calc(100% - 34px);
+  left: calc(100% - 34px);
+  border: none;
+  border-radius: 50%;
+  background: linear-gradient(301.07deg, #f12711 7.18%, #f5af19 96.48%);
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 72px;
+  color: #ffffff;
+  width: 66px;
+  height: 66px;
+  line-height: 0;
+  outline: none;
+}
+
+/* pagination */
+.pagination {
+  margin-bottom: 262px;
+  margin-left: 0;
+}
+
+.pagination ul {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination li {
+  width: 56px;
+  height: 56px;
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.pagination li.active {
+  background: linear-gradient(301.07deg, #f12711 7.18%, #f5af19 96.48%);
+}
+
+.pagination li:hover a {
+  text-decoration: underline;
+}
+
+.pagination li,
+.pagination li a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 56px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* End pagination */
+
+/* Start media */
+@media (min-width: 480px) {
+
+  .production__text,
+  .production__text span {
+    font-size: 24px;
+
+  }
+
+  .production__block .production__img {
+    top: 76%;
+    max-height: 500px;
+  }
+
+
+}
+
+@media (min-width: 600px) {
+  .production__list {
+    display: grid;
+    grid-template-columns: calc((450 / 695) * 100%);
+    grid-row-gap: 380px;
+    margin-bottom: 178px;
+  }
+
+  .appitzer__list {
+    display: grid;
+    grid-row-gap: 180px;
+  }
+
+  .pagination {
+    margin-bottom: 407px;
+
+  }
+
+  .production__image img {
+    width: 100%;
+    height: unset;
+  }
+
+  .pagination {
+    margin-left: 77px;
+  }
+
+  .production__list .production__block .btn {
+    top: calc(100% - 64px);
+    left: calc(100% - 52px);
+    width: 90px;
+    height: 90px;
+  }
+
+  .production__title {
+    margin: 0 0 410px;
+  }
+
+  .appitzer__title {
+    margin: 0 0 210px;
+  }
+
+  .production__caption {
+    padding-left: 32px;
+    padding-top: 317px;
+  }
+
+  .appitzer__caption {
+    padding-top: 242px;
+  }
+
+  .production__block .production__img {
+    top: 18%;
+  }
+
+  .production__block .mg-t {
+    top: 27%;
+  }
+
+  .production__block .pd-t {
+    top: 2%;
+  }
+
+  .production__text {
+    padding: 31px 0 90px 34px;
+  }
+}
+
+@media (min-width: 750px) {
+  .production__list {
+    grid-template-columns: calc((500 / 1185) * 100%) calc((500 / 1185) * 100%);
+    grid-column-gap: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .production__list {
+    grid-template-columns: calc((420 / 1560)*100%) calc((420 / 1560)*100%) calc((420 / 1560)*100%);
+  }
+}
+
+@media (min-width: 1560px) {
+  .production__list {
+    grid-template-columns: calc((375 / 1720)*100%) calc((375 / 1720)*100%) calc((375 / 1720)*100%) calc((375 / 1720)*100%);
+    justify-content: unset;
+  }
+
+  .wine__list {
+    grid-template-columns: calc((375 / 1720)*100%) calc((375 / 1720)*100%) calc((375 / 1720)*100%);
+    justify-content: center;
+  }
+}
+
+/* End media */

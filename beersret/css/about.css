@@ -1,0 +1,641 @@
+/* start about.css */
+/* about-beerset */
+.about {
+  margin-top: 26px;
+}
+
+.about-beerset__caption {
+  -webkit-text-stroke: 2px #fff;
+  -webkit-text-fill-color: #1b1b1b;
+  margin-bottom: 1px;
+}
+
+.about-beerset {
+  margin-bottom: 42px;
+}
+
+.about-beerset__block {
+  width: 101%;
+}
+
+.about-beerset__block h3.about-beerset__size {
+  padding-bottom: 6px;
+}
+
+.about-beerset__box {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  position: relative;
+  margin-top: -55px;
+}
+
+.about-beerset__abs {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: calc((330 / 923) * 100%);
+}
+
+.about-beerset__item1 {
+  width: calc((923 / 1720) * 100%);
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.about-beerset__item2 {
+  width: calc((777 / 1720) * 100%);
+  margin-bottom: 4px;
+}
+
+.about-beerset__item2 img {
+  border-radius: 10px;
+}
+
+.about-beerset__picture {
+  position: relative;
+}
+
+.about-beerset__picture:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(318.95deg, #f12711 7.18%, #f5af19 96.48%);
+  border-radius: 10px;
+}
+
+.about-beerset__picture img {
+  position: relative;
+  z-index: 1;
+  margin: 2px;
+  display: block;
+  border-radius: 8px;
+  width: calc(100% - 5px);
+  height: calc(100% - 4px);
+  top: 0px;
+  left: 0px;
+}
+
+.about-beerset__imagecentr {
+  position: absolute;
+  left: calc((720 / 1720) * 100%);
+  top: calc((385 / 1246) * 100%);
+  z-index: 2;
+  width: calc((407 / 1720) * 100%);
+}
+
+.mt43 {
+  position: relative;
+  top: 18px;
+}
+
+/* END about-beerset */
+
+/* about-team */
+.about-team {
+  background: url("../img/Team_mobile.png");
+  background-repeat: no-repeat;
+  margin-bottom: 58px;
+  padding-bottom: 0;
+  background-position-y: 77px;
+}
+
+.about-team__title {
+  text-align: center;
+}
+
+.about-team__box {
+  display: grid;
+  grid-template-columns: 100%;
+  margin-top: 10px;
+}
+
+.about-team__text {
+  margin-top: 20px;
+}
+
+.about-team__img {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.about-team__text p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-indent: 20px;
+  color: #ffffff;
+}
+
+/* End about-team */
+
+/* about-ourvalues */
+.about-ourvalues {
+  max-width: 1439px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-ourvalues__box {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.about-ourvalues__text {
+  display: grid;
+  align-self: center;
+}
+
+.about-ourvalues__text h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-ourvalues__text p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-indent: 20px;
+  color: #ffffff;
+}
+
+.about-ourvalues__img {
+  display: grid;
+  justify-items: center;
+  margin-top: 43px;
+  border-radius: 10px;
+}
+
+.about-ourvalues__img img {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+/* End about-ourvalues */
+
+/* mainWork*/
+.mainWork {
+  margin-top: 0;
+  position: relative;
+  margin: 93px 0 48px;
+}
+
+.mainWork::after {
+  content: "";
+  background: url("../img/trapeze1.png") no-repeat right bottom;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 331px;
+  height: 264px;
+}
+
+.mainWork__grid {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.mainWork__img {
+  display: grid;
+  grid-row-start: 2;
+  margin-top: 38px;
+  justify-items: center;
+}
+
+.mainWork__img img {
+  z-index: 1;
+  position: relative;
+  width: 214px;
+  height: 320px;
+}
+
+.mainWork__list {
+  margin-top: 21px;
+}
+
+.mainWork__list h3 {
+  margin-top: 22px;
+  margin-bottom: 42px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.mainWork__list li {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 14px 0;
+}
+
+.mainWork_btn {
+  margin: 91px auto 0;
+  width: 285px;
+}
+
+.mainWork__list li {
+  list-style: none;
+}
+
+.mainWork__list li::before {
+  content: '';
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: #FFFFFF;
+  margin-right: 23px;
+}
+
+.mainWork__hr {
+  background: linear-gradient(355.31deg, #f12711 7.18%, #f5af19 96.48%);
+  border: none;
+  height: 38px;
+  margin: -1px 0 0 0;
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+}
+
+/* End work */
+
+/* partner */
+.mainPartner h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.mainPartner {
+  margin-bottom: 127px;
+  max-width: 1770px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.mainPartner__slider {
+  overflow: hidden;
+}
+
+.mainPartner__img {
+  display: flex;
+  justify-content: unset;
+  overflow-x: scroll;
+}
+
+.mainPartner__img img {
+  margin-right: 20px;
+  max-height: 96px;
+}
+
+.mainPartner__img img:nth-child(6) {
+  margin-right: 0px;
+}
+
+.mainPartner__btn {
+  max-width: 285px;
+  margin: 40px auto 0;
+}
+
+/* Endpartner */
+
+/* media */
+@media (min-width: 400px) {
+  .about-beerset__box {
+    margin-top: -101px;
+  }
+}
+
+@media (min-width: 480px) {
+  .about-beerset__box {
+    margin-top: -112px;
+  }
+
+  .mainPartner h1 {
+    margin-bottom: 78px;
+  }
+
+  .mainPartner__img img {
+    max-height: 100%;
+  }
+
+
+  .about-team {
+    background-position-y: unset;
+  }
+
+  .about-team__box {
+    margin-top: 30px;
+  }
+
+  .about {
+    margin-top: 44px;
+  }
+
+  .about-beerset__caption {
+    margin-bottom: 16px;
+  }
+
+  .about-beerset__block h3.about-beerset__size {
+    padding-bottom: 12px;
+  }
+
+
+  .about-beerset {
+    margin-bottom: 100px;
+  }
+
+  .about-team__text {
+    margin-top: 30px;
+  }
+
+  .mainWork__list h3 {
+    font-size: 24px;
+  }
+
+  .mainWork {
+    margin: 0 0 98px;
+  }
+
+  .mainWork__list li {
+    margin: 13px 18px;
+  }
+
+  .mainPartner h1 {
+    margin-bottom: 78px;
+  }
+
+  .mainPartner__img img {
+    max-height: 100%;
+  }
+
+  .about-team {
+    background-position-y: unset;
+  }
+
+}
+
+@media (min-width: 600px) {
+  .about-team__box {
+    margin-top: 76px;
+  }
+
+  .about-team__text p {
+    font-size: 26px;
+    line-height: 24px;
+  }
+
+  .about-ourvalues__text p {
+    font-size: 26px;
+    line-height: 24px;
+  }
+
+  .mainWork::after {
+    width: 100%;
+    height: 815px;
+  }
+
+  .mainWork__img img {
+    width: unset;
+    height: unset;
+  }
+
+  .mainWork__hr {
+    height: 94px;
+    margin: -1px 0 0 0;
+  }
+
+  .mainWork__list li {
+    font-size: 36px;
+    line-height: 44px;
+    margin: 12px 31px;
+    padding-left: 8px;
+  }
+
+  .mainWork__list h3 {
+    margin-bottom: 62px;
+    font-size: 36px;
+  }
+
+  .mainWork_btn {
+    margin: 76px 0 0 0;
+    width: 410px;
+  }
+
+  .mainPartner__img img {
+    margin-right: 80px;
+  }
+}
+
+@media (min-width: 750px) {
+  .about-beerset__box {
+    margin-top: -159px;
+  }
+
+  .about-beerset__item1 {
+    margin-bottom: 3px;
+  }
+
+  .about-beerset__item2 {
+    margin-bottom: 10px;
+  }
+
+  .about-beerset__caption {
+    -webkit-text-stroke: 4px #fff;
+  }
+
+  .about-ourvalues__text p {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .mt43 {
+    top: 29px;
+  }
+
+  .about-team__text p {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .about-ourvalues__text p {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .about-ourvalues__text h1 {
+    margin-bottom: 0px;
+  }
+
+  .mainWork::after {
+    height: 100%;
+  }
+
+  .mainPartner__img img {
+    margin-right: 125px;
+  }
+
+  .mainPartner h1 {
+    margin-bottom: 79px;
+  }
+
+  .mainPartner {
+    margin-bottom: 91px;
+  }
+
+  .mainPartner__btn {
+    margin: 132px auto 0;
+    max-width: 559px;
+  }
+}
+
+@media (min-width: 960px) {
+  .about-beerset__block h3 {
+    line-height: 45px;
+  }
+
+  .about-beerset__box {
+    margin-top: -240px;
+  }
+
+  .about-beerset__item1 {
+    margin-bottom: 8px;
+  }
+
+  .mt43 {
+    top: 43px;
+  }
+
+  .mainWork::after {
+    background-position: bottom left;
+
+  }
+
+  .mainWork__list {
+    margin: 50px 0 74px 0;
+    display: grid;
+    justify-items: center;
+  }
+
+  .about-team {
+    background: url("../img/Group 26.png");
+    margin-bottom: 255px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-beerset__block {
+    width: calc((850 / 1720) * 100%);
+  }
+
+  .about-beerset__picture img {
+    margin: 4px;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+    top: 4px;
+    left: 4px;
+  }
+
+  .about-beerset__box {
+    margin-top: -425px;
+  }
+
+  .about-beerset__item1 {
+    margin-bottom: 20px;
+  }
+
+  .about-beerset__item2 {
+    margin-bottom: 20px;
+  }
+
+  .about-team__box {
+    display: grid;
+    grid-template-columns: calc((955 / 1720) * 100%) auto;
+    grid-column-gap: calc((59 / 1720) * 100%);
+  }
+
+  .about-team {
+    padding-bottom: 47px;
+  }
+
+  .about-ourvalues__box {
+    display: grid;
+    grid-template-columns: calc((850 / 1820) * 100%) auto;
+    grid-column-gap: 10px;
+  }
+
+  .about-ourvalues__text h1 {
+    margin-left: 21px;
+    margin-bottom: 59px;
+    text-align: left;
+  }
+
+  .about-ourvalues {
+    max-width: 1845px;
+    padding-left: 25px;
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-bottom: 218px;
+  }
+
+  .about-ourvalues__img {
+    display: grid;
+    align-items: end;
+    margin-top: 0;
+  }
+
+  .mainWork::after {
+    background-position: bottom right;
+    width: calc((1023 / 1920) * 100%);
+  }
+
+  .mainWork__grid {
+    display: grid;
+    grid-template-columns: calc((850 / 1720) * 100%) auto;
+    grid-column-gap: 19px;
+  }
+
+  .mainWork__list {
+    margin-top: 158px;
+  }
+
+  .mainWork__img {
+    display: grid;
+    justify-items: end;
+    grid-row-start: 1;
+  }
+
+  .mainWork__list {
+    display: initial;
+    justify-items: initial;
+  }
+
+  .mainPartner__img {
+    justify-content: center;
+    overflow-x: visible;
+  }
+}
+
+/* Endmedia */

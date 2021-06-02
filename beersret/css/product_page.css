@@ -1,0 +1,370 @@
+.layout {
+  position: relative;
+}
+
+.layout:before {
+  content: '';
+  position: absolute;
+  background: url("../img/product_page_back.png");
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 480px;
+  z-index: -1;
+}
+
+.product-beer__text li::before {
+  content: '';
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: #FFFFFF;
+  margin-right: 23px;
+}
+
+.product-beer {
+  margin-bottom: 60px;
+}
+
+.product-beer__grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column-gap: 0;
+}
+
+.product-beer__text {
+  display: grid;
+  justify-content: center;
+}
+
+.product-beer__text p {
+  margin-left: 0px;
+}
+
+.product-beer__text h1:first-child {
+  -webkit-text-stroke: 2px #fff;
+  -webkit-text-fill-color: #1b1b1b;
+  margin-bottom: 12px;
+}
+
+.product-beer__text h1 {
+  text-align: left;
+}
+
+
+
+.product-beer__img img {
+  width: 280px;
+  height: 351px;
+  margin-top: 32px;
+}
+
+
+
+.product-beer__img {
+  display: grid;
+  justify-items: center;
+  margin-bottom: 50px;
+}
+
+.pd {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.pd img {
+  margin: 0;
+  width: auto;
+  height: auto;
+
+}
+
+.product-beer__text ul {
+  margin: 21px auto 0;
+}
+
+.product-beer__text li {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 13px 0 11px 0;
+}
+
+.product-beer__text ul {
+  list-style: none;
+}
+
+.product-beer__btn {
+  width: 234px;
+  height: 55px;
+  margin: 25px auto 0;
+}
+
+.product-beer__btn i {
+  width: 27px;
+  height: 29px;
+}
+
+.product-beer__btn i::before {
+  content: "";
+  width: 27px;
+  height: 29px;
+  background: url('../img/basket_mobile.png');
+  position: absolute;
+  display: flex;
+  margin: 5px 0 0 29px;
+}
+
+.product-beer__btn span {
+  padding-left: 35px;
+}
+
+.product-benefits {
+  margin-bottom: 313px;
+}
+
+.product-benefits__grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column-gap: 92px;
+}
+
+.product-benefits__text h2 {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.product-benefits__text p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.product-benefits__text {
+  margin-bottom: 40px;
+}
+
+.product-benefits__img {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.product-benefits__img::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(318.95deg, #f12711 7.18%, #f5af19 96.48%);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.product-benefits__img img {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  z-index: 1;
+  display: block;
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+  position: relative;
+  margin: 4px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 480px) {
+
+  .product-beer__img img {
+    margin-top: 0px;
+  }
+
+  .product-beer__text li {
+    font-size: 36px;
+    line-height: 44px;
+    margin: 11px 0px;
+  }
+
+  .product-benefits__text p {
+    font-size: 34px;
+  }
+
+  .product-beer__text h1:first-child {
+    margin-bottom: 0px;
+  }
+
+  .product-beer {
+    margin-top: 12px;
+  }
+}
+
+@media (min-width: 600px) {
+  .product-beer__btn {
+    width: 415px;
+    height: 88px;
+  }
+
+  .product-beer__btn i {
+    width: 41px;
+    height: 45px;
+  }
+
+  .product-beer__btn i::before {
+    width: 41px;
+    height: 45px;
+    background: url("../img/basket.png");
+    margin: 0 0 0 94px;
+  }
+
+  .layout:before {
+    height: calc((480 / 1920)*100%);
+    background-position-y: center
+  }
+
+  .product-beer__img img {
+    width: unset;
+    height: unset;
+  }
+
+  .product-beer__text h1 {
+    text-align: center;
+  }
+
+  .product-beer__btn {
+    margin: 35px auto 0;
+  }
+
+  .product-beer__btn i::before {
+    margin: 5px 0 0 35px;
+  }
+
+  .product-beer__btn span {
+    padding-left: 59px;
+  }
+}
+
+@media(min-width: 747px) {
+  .product-beer__btn i::before {
+    margin: 18px 0 0 48px;
+  }
+
+  .product-benefits {
+    margin-bottom: 447px;
+  }
+}
+
+@media (min-width: 840px) {
+  .layout:before {
+    height: calc((600 / 1920)*100%);
+  }
+}
+
+@media (min-width: 1080px) {
+  .layout:before {
+    height: calc((640 / 1920)*100%);
+    background-position-y: center
+  }
+
+  .product-beer {
+    margin-bottom: 226px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .product-beer__grid {
+    display: grid;
+    grid-template-columns: calc((860 / 1720) * 100%) calc((771 / 1720)* 100%);
+    grid-column-gap: calc((65 / 1720) * 100%);
+  }
+
+  .layout:before {
+    width: calc((960 / 1920)*100%);
+    height: calc((650/ 1920)*100%);
+    background-position-y: unset;
+  }
+
+  .product-beer__btn {
+    margin: 33px 0 0;
+  }
+
+  .product-beer__text h1 {
+    text-align: left;
+  }
+
+  .product-beer__text {
+    justify-content: unset;
+    display: block;
+
+  }
+
+  .product-beer__text ul {
+    margin: 53px 0 0;
+  }
+
+  .product-beer__img {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+
+
+  .product-beer__img img {
+    max-width: 620px;
+    margin: 0 0 0 60px;
+    max-height: 930px;
+  }
+
+  .pd img {
+    margin: 0;
+
+  }
+
+  .product-beer__img {
+    display: grid;
+    justify-items: unset;
+  }
+
+  .product-benefits__grid {
+    grid-template-columns: calc((999 / 1720) * 100%) auto;
+    grid-column-gap: 92px;
+  }
+
+  .product-benefits__img {
+    width: unset;
+  }
+
+  .product-beer {
+    margin-bottom: 225px;
+  }
+
+  .product-benefits__text h2 {
+    margin-bottom: 20px;
+    margin-top: 74px;
+  }
+
+  .product-benefits__text {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1680px) {
+  .product-beer__text h1:first-child {
+    margin-top: 39px;
+  }
+
+  .product-beer__btn {
+    margin: 94px 0 0 2px;
+  }
+}
