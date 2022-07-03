@@ -66,12 +66,12 @@ if (isset($_POST['submit'])) {
                         <div class="header__inner">
                             <div class="menu">
                                 <nav class="nav" id="menu">
-                                    <a href="index.php#menu" class="nav__link">home</a>
-                                    <a href="index.php#about" class="nav__link">about</a>
-                                    <a href="index.php#rooms" class="nav__link">rooms</a>
-                                    <a href="index.php#services" class="nav__link">services</a>
-                                    <a href="index.php#gallery" class="nav__link">gallery</a>
-                                    <a href="index.php#contacts" class="nav__link">contacts</a>
+                                    <a href="index.html#menu" class="nav__link">home</a>
+                                    <a href="index.html#about" class="nav__link">about</a>
+                                    <a href="index.html#rooms" class="nav__link">rooms</a>
+                                    <a href="index.html#services" class="nav__link">services</a>
+                                    <a href="index.html#gallery" class="nav__link">gallery</a>
+                                    <a href="index.html#contacts" class="nav__link">contacts</a>
                                 </nav>
                             </div>
                             <a href="booking.php" class="nav__link booking">book a room</a>
@@ -89,12 +89,12 @@ if (isset($_POST['submit'])) {
 
                                         <div class="mobile-menu__content">
                                             <nav class="nav" id="menu">
-                                                <a href="index.php" class="nav__link">home</a>
-                                                <a href="index.php#about" class="nav__link">about</a>
-                                                <a href="index.php#rooms" class="nav__link">rooms</a>
-                                                <a href="index.php#services" class="nav__link">services</a>
-                                                <a href="index.php#gallery" class="nav__link">gallery</a>
-                                                <a href="index.php#contacts" class="nav__link">contacts</a>
+                                                <a href="index.html" class="nav__link">home</a>
+                                                <a href="index.html#about" class="nav__link">about</a>
+                                                <a href="index.html#rooms" class="nav__link">rooms</a>
+                                                <a href="index.html#services" class="nav__link">services</a>
+                                                <a href="index.html#gallery" class="nav__link">gallery</a>
+                                                <a href="index.html#contacts" class="nav__link">contacts</a>
 
                                             </nav>
 
