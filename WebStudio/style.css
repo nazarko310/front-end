@@ -74,6 +74,10 @@ a {
     padding: 0 15px;
 }
 
+.mb-94 {
+    margin-bottom: 94px;
+}
+
 /*header*/
 
 .header__inner {
@@ -161,3 +165,83 @@ a {
 
 
 /*header*/
+
+/*intro*/
+
+.intro {
+    height: 600px;
+    background: url("img/intro.png") center no-repeat;
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro:after {
+    max-width: 1600px;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(47, 48, 58, 0.4);
+
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+
+}
+
+.intro__content {
+    max-width: 620px;
+    text-align: center;
+}
+
+.intro__content h1 {
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.intro__btn {
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+/*intro*/
+
+/*benefits*/
+
+.benefits__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.benefits__element {
+    width: calc((270 / 1170) * 100%);
+}
+
+.benefits__element-img {
+    margin-bottom: 30px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.benefits__element-img img {
+    margin: 25px auto;
+}
+
+.benefits__element p {
+    margin-top: 10px;
+    line-height: 24px;
+    max-width: 243px;
+}
+
+/*benefits*/
