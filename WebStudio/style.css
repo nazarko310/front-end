@@ -41,6 +41,7 @@ p {
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.03em;
+
 }
 
 a {
@@ -91,7 +92,6 @@ img {
 }
 
 .social {
-    margin: 16px 32px 30px;
 
     flex-wrap: wrap;
     gap: 10px;
@@ -310,6 +310,10 @@ img {
     background: #F5F4FA;
 }
 
+.team__social {
+    margin: 16px 32px 30px;
+}
+
 .team__inner {
     gap: 30px;
     flex-wrap: wrap;
@@ -369,3 +373,45 @@ img {
 
 /*clients*/
 
+
+/*footer*/
+
+.footer {
+    padding: 60px 0;
+    background-color: #2F303A;
+}
+
+.footer__inner {
+    align-items: unset;
+    justify-content: space-between;
+}
+
+.footer__contact {
+    width: calc((231 / 1170) * 100%);
+}
+
+.footer__logo {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.footer__contact p {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__contact p:nth-child(2) {
+    color: #FFFFFF;
+}
+
+
+.footer__contact-email {
+    margin: 9px 0;
+}
+
+
+.footer__subscription {
+    width: calc((570 / 1170) * 100%)
+}
+
+
+/*footer*/
