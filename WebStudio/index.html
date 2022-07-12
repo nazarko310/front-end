@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <title>WebStudio</title>
 
@@ -396,14 +397,14 @@
             <div class="footer__inner flex">
 
                 <div class="footer__contact">
-                    <p class="footer__logo logo"><span>Web</span>Studio</p>
-                    <p>м. Київ, пр-т Лесі Українки, 26</p>
+                    <h3 class="logo"><span>Web</span>Studio</h3>
+                    <p class="footer__contact-address">м. Київ, пр-т Лесі Українки, 26</p>
                     <p class="footer__contact-email">info@example.com</p>
                     <p>+38 099 111 11 11</p>
                 </div>
 
                 <div class="footer__social">
-                    <p class="footer__social-title footer-white">Приєднуйтесь</p>
+                    <h3>Приєднуйтесь</h3>
                     <div class="social flex">
                         <a class="flex" href="#"><i class="fab fa-instagram"></i></a>
                         <a class="flex" href="#"><i class="fab fa-twitter"></i></a>
@@ -413,16 +414,16 @@
                 </div>
 
                 <div class="footer__subscription">
-                    <p class="footer-white">Підпишіться на розсилку</p>
-                    <form action="/" class="form">
-                        <label for="email"></label>
+                    <h3>Підпишіться на розсилку</h3>
+                    <form action="index.html" class="form flex">
                         <input id="email" type="email" placeholder="E-mail">
-                        <button class="form__send btn_text btn">
-                            Підписатись
-                            <i class="fab fa-telegram"></i>
+                        <button class="btn_text btn flex">
+                            <span>Підписатись</span>
+                            <i class="fa-solid fa-paper-plane"></i>
                         </button>
                     </form>
                 </div>
+
             </div>
         </div>
     </footer>
